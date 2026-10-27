@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MyPortfolio.</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Dev Chhari</span></h1>
+                <h2>I am a <span id="typing">Web Developer</span></h2>
+                <p>I love coding, technology and creating websites.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+
+            <img src="myphoto.jpg" alt="My Profile Photo"
+                 class="profile-photo">
+        </section>
+
+        <section id="about" class="section">
+            <h2>About <span>Me</span></h2>
+            <p>
+                Hello! My name is Your Name. I am learning web development.
+                I enjoy coding and creating creative websites.
+                My goal is to become a professional developer.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My <span>Skills</span></h2>
+            <div class="cards">
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">JavaScript</div>
+                <div class="card">C++</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My <span>Projects</span></h2>
+            <p>Here are some projects I am learning to build.</p>
+
+            <div class="cards">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>My personal website using HTML and CSS.</p>
+                </div>
+                <div class="project">
+                    <h3>Calculator</h3>
+                    <p>A simple calculator project.</p>
+                </div>
+                <div class="project">
+                    <h3>Gaming Website</h3>
+                    <p>A modern gaming website design.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact <span>Me</span></h2>
+            <p>Have a project idea? Let's connect!</p>
+
+            <a href="mailto:your@email.com" class="btn">
+                Send Me an Email
+            </a>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Your Name | My Portfolio</p>
+    </footer>
+
+    <script src="port.js"></script>
+</body>
+</html>
